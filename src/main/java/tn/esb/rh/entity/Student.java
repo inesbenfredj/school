@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-@Entity
+@Entity //hhhhhhhhhhhhhhhhhh
 @Getter
 @Setter
 @AllArgsConstructor
@@ -19,7 +19,7 @@ public class Student    {
 
     private String name;
     private String address;
-    private Double percentage;
+    private Double percentage;  
 
 
 }

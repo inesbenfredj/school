@@ -11,7 +11,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Student {
+public class Student    {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
